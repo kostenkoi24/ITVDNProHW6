@@ -6,14 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Homework6_2\Homework6_2.csproj">
-      <Private>true</Private>
-    </ProjectReference>
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="Homework6_2">
       <HintPath>..\Homework6_2\bin\Debug\netcoreapp3.1\Homework6_2.dll</HintPath>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
 

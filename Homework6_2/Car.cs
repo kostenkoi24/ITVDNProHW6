@@ -11,6 +11,8 @@ namespace Homework6_2
         protected short maxSpeed;
         protected EngineState state;
 
+        
+
         protected Car()
         {
             state = EngineState.EngineAlive;
@@ -22,6 +24,13 @@ namespace Homework6_2
             this.name = name;
             this.maxSpeed = maxSpeed;
             this.currentSpeed = currentSpeed;
+        }
+
+        public double TemperatureConvertation(double celsiusDegrees)
+        {
+            //1 °C × 9/5) + 32 = 33,8 °F celsius to fahrenheit
+
+            return (celsiusDegrees * 9 / 5) + 32;
         }
 
 
